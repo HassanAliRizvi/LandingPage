@@ -1,0 +1,65 @@
+
+.menu{
+    display: flex;
+    padding: 15px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 5px;
+    position:absolute; 
+    right:80px;
+    float:right;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.main-text{
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.main-text .text{
+    float: center;
+    margin: 70px;
+}
+
+.information{
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.information .subtext{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.inspiring-quote
+{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.call-to-action
+{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+}
+.button-call-to-action{
+    margin: auto;
+    width: 60%;
+    margin-left: 500px;
+}
