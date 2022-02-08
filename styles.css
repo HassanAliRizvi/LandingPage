@@ -90,14 +90,21 @@ a{
     margin-left: 500px;
 }
 
+.footer{
+    background-color: #1F2937;
+    margin: 10px;
+}
+
 footer{
     justify-content: center;
     margin: auto;
     width: 20%;
     padding: 20px;
+    background-color: #1F2937;
+    color: white;
 }
 
-button {
+.button {
     background-color: blue;
     border: none;
     color: white;
@@ -121,6 +128,26 @@ button {
 .inspiring-quote{
     background-color: lightgrey;
     width: 90%;
-    padding:95px;
+    padding:100px;
     margin: 0px;
+}
+
+.call-to-action{
+    display: flex;
+    background-color: lightblue;
+    margin: 50px auto 50px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
+.call-to-action .text .button-call-to-action{
+    margin-right: 10px;
+
+}
+
+.call-to-action .text{
+    padding-left: 500px;
+    padding:5px;
+    color: white;
+    margin-bottom: 10px;
 }
