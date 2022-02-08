@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <title>Document</title>
 </head>
 <body>
     <div class="header">
 
         <div class="menu">
-            <h3 class="logo">Logo</h3>
+            <h1>Logo</h1>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Contact</a></li>
@@ -22,13 +24,11 @@
 
         <div class="main-text">
             <div class="text">
-                <h3>This website is awesome!</h3>
-                <p>This website has some subtext that goes here under 
+                <p style="font-size: 50px; padding: 0px; margin-bottom: 0px;">This website is awesome!</p>
+                <p style="font-size: 20px; margin-top: 0px;">This website has some subtext that goes here under 
                     the main title. It's a smaller font and the color
                     is of a lower contrast</p>
-                <div class="button">
-                    <button>Sign Up</button>
-                </div>
+                <button>Sign Up</button>
             </div>
             <div class="header-image">
                 <img src="images/css_html.png">
@@ -39,29 +39,29 @@
     <div class="information">
         <p style="text-align:center;">Some random information</p>
         <div class="subtext">
-            <div class="image-one">
-                <img src="" alt="first image">
+            <div class="image">
+                <div class="box"> This text is enclosed in a box</div>
+                <p>This is some subtext under an image</p>
+            </div>
+            <div class="image">
+                <div class="box"> This text is enclosed in a box</div>
+                <p>This is some subtext under an image</p>
+            </div >
+            <div class="image">
+                <div class="box"> This text is enclosed in a box</div>
                 <p>This is some subtext under an image</p>
             </div>
             <div>
-                <img src="" alt="second image">
-                <p>This is some subtext under an image</p>
-            </div>
-            <div>
-                <img src="" alt="third image">
-                <p>This is some subtext under an image</p>
-            </div>
-            <div>
-                <img src="" alt="fourth image">
+                <div class="box"> This text is enclosed in a box</div>
                 <p>This is some subtext under an image</p>
             </div>
         </div>
     </div>
 
     <div class="inspiring-quote">
-        <h3>This is an inspiring quote, or a testimonial from 
+        <p style="text-align:center; font-size: 30px;"><i>This is an inspiring quote, or a testimonial from 
             a customer. Maybe it's just filling up space, or maybe
-            people will actually read it</h3>
+            people will actually read it</i></p>
     </div>
 
     
@@ -71,9 +71,13 @@
             <p> Sign up for out product by clicking the button right over here</p>
         </div>
         <div class="button-call-to-action">
-            <button>Sign Up</button>
+            <button><a href="#">Sign Up</a></button>
         </div>
     </div>
+
+    <footer>
+        <p>Copyright © Syed Hassan Ali Rizvi - Odin Project 2022</p>
+    </footer>
 
 </body>
 </html>
